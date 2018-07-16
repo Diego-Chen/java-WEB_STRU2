@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<package name="default"  extends="struts-default">
+		   <!--点击按钮 数据会传到TestAciton中-->
+           <action name="index" class="action.TestAciton"> 
+              <result name="success">/WEB_JSP/success.jsp</result>
+              <result name="failure">/WEB_JSP/failure.jsp</result>
+           </action>
+   </package>
+</struts>    
