@@ -7,5 +7,9 @@
               <result name="success">/WEB_JSP/success.jsp</result>
               <result name="failure">/WEB_JSP/failure.jsp</result>
            </action>
+           
+            <action name="action" class="action.TestAciton"> 
+              
+           </action>
    </package>
 </struts>    

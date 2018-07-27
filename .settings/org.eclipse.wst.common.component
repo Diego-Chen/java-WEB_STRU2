@@ -3,6 +3,7 @@
     <wb-module deploy-name="WEB_STRU2">
         <wb-resource deploy-path="/" source-path="/WebRoot"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/documnet"/>
         <property name="context-root" value="/WEB_STRU2"/>
         <property name="java-output-path" value="/WEB_STRU2/WebRoot/WEB-INF/classes"/>
     </wb-module>
